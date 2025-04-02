@@ -1,8 +1,8 @@
 export default function NotFound() {
   return (
-    <div>
-      <h2>页面未找到</h2>
-      <p>抱歉，您要查找的页面不存在。</p>
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      <h1 className="text-4xl font-bold">Not Found</h1>
+      <p className="mt-4">The page you are looking for does not exist.</p>
     </div>
   );
 }
